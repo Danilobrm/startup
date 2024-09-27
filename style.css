@@ -8,16 +8,23 @@
   width: 100%;
   height: 100%;
   padding: 0 100px;
+  margin-bottom: 100px;
 }
+
 
 header {
   height: 70px;
   width: 100%;
+  color: #007bff;
+  padding: 10px 0;
+}
+
+main {
+  margin-top: 50px;
 }
 
 .hero {
   display: flex;
-  border: 1px solid red;
 }
 
 .hero-content {
@@ -27,13 +34,13 @@ header {
   margin-top: 50px;
 }
 
-.hero-content button p,
+button p,
 a {
   font-size: 20px;
 }
 
-.hero-content button {
-  /* height: 70px; */
+button {
+  height: 70px;
   padding: 15px 100px;
   border-radius: 50px;
   border: none;
@@ -47,7 +54,7 @@ a {
   text-decoration: none;
 }
 
-.hero h1 {
+h1 {
   padding-right: 50px;
   max-width: 806px;
   font-size: 52px;
@@ -58,7 +65,6 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 10px; /* Optional: Adds some spacing between items */
-  border: 1px solid red;
   width: 160px; /* Adjust width to fit items */
   height: 160px; /* Adjust height to fit items */
   list-style: none; /* Remove default bullet points */
@@ -67,10 +73,122 @@ a {
 }
 
 .hero ul li {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: lightgray; /* Optional: Add a background color to visualize the grid */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer_paragraph {
+  margin-top: 388px;
+}
+
+.wrapper-box {
+  width: 100%;
+  height: 200px;
+  background-color: #dadada6c;
+  border-radius: 20px 60px 20px 60px;
+  margin: 0 auto;
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+}
+
+.wrapper-box span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.box-data-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  opacity: 1;
+}
+
+.box-data-details h3 {
+  font-size: 81px;
+}
+
+.box-data-details h3 p {
+  font-size: 29px;
+}
+
+.what-we-do-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.images .box {
+  width: 45%;
+  height: 100%;
+  background-color: gray;
+  border-radius: 23px;
+}
+
+.images .retangle {
+  border-radius: 23px;
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+}
+
+.images {
+  height: 281px;
+  margin-top: 36px;
+  gap: 38px;
+  display: flex;
+}
+
+.our-services {
+  margin-top: 140px;
+}
+
+.our-services .cards {
+  gap: 20px;
+  display: flex;
+  margin-top: 73px;
+}
+
+.our-services .card-service {
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #F8F8F8;
+  padding: 40px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.our-services .card-service .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: flex-end;
+  height: 200px;
+}
+
+.our-services .card-service .icon { 
+  height: 40%;
+}
+
+.our-services .card-service .title {
+  font-size: 32px;
+  color: #000;
+}
+.our-services .card-service .paragraph {
+  font-size: 25px;
+  color: #5F5F5F;
+}
+
+.our-services .card-service .see-more {
+  font-size: 20px;
+  color: #007BFF;
 }
